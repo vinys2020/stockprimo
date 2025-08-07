@@ -8,17 +8,18 @@ export default function Home() {
       <section className="row  align-items-center justify-content-center shadow-lg rounded-4 overflow-hidden bg-white mx-auto">
         {/* Mensaje de bienvenida */}
         <article className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center p-5 text-center home-welcome">
-          <h1 className="mb-4 fw-bold">
-            Bienvenido a <span className="text-primary">StockPrimo</span>
-          </h1>
-          <p className="text-secondary fs-5">
-            Controlá el stock, ventas y facturación de forma simple y eficaz.
-          </p>
+        <h1 className="mb-4 fw-bold">
+        <h2>Centro de <span className="text-primary">Control y Administración</span></h2>
+</h1>
+<p className="text-secondary fs-5">
+  Gestioná tu información de forma ágil, segura y centralizada.  
+</p>
+
           <img
-            src="https://cdn-icons-png.flaticon.com/512/2920/2920083.png"
+            src="https://res.cloudinary.com/dcggcw8df/image/upload/v1754583179/o4fopqihslucbvb3rdfe.png"
             alt="Stock Illustration"
             className="img-fluid mt-4"
-            style={{ maxWidth: "220px" }}
+            style={{ maxWidth: "620px" , backgroundColor: "red", padding: "15px", borderRadius: "10px"}}
           />
         </article>
 
